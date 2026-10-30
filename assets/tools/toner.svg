@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="120" height="160">
+<defs><filter id="bl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3"/></filter>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#6f95dc"/><stop offset=".3" stop-color="#aac6f5"/><stop offset=".6" stop-color="#cfe0fb"/><stop offset="1" stop-color="#5d83cb"/></linearGradient>
+<linearGradient id="c" x1="0" x2="1"><stop offset="0" stop-color="#b9c2cc"/><stop offset=".35" stop-color="#ffffff"/><stop offset=".7" stop-color="#e3e8ee"/><stop offset="1" stop-color="#a7b1bd"/></linearGradient></defs>
+<ellipse cx="60" cy="148" rx="32" ry="6" fill="#4a3040" opacity=".28" filter="url(#bl)"/>
+<rect x="36" y="48" width="48" height="98" rx="12" fill="url(#g)"/>
+<ellipse cx="60" cy="62" rx="22" ry="4" fill="#e6f0ff" opacity=".7"/>
+<rect x="42" y="26" width="36" height="26" rx="6" fill="url(#c)"/>
+<g stroke="#9aa6b3" stroke-width=".8" opacity=".6"><line x1="49" y1="29" x2="49" y2="49"/><line x1="55" y1="29" x2="55" y2="49"/><line x1="61" y1="29" x2="61" y2="49"/><line x1="67" y1="29" x2="67" y2="49"/><line x1="73" y1="29" x2="73" y2="49"/></g>
+<rect x="41" y="54" width="6" height="86" rx="3" fill="#fff" opacity=".5"/>
+<rect x="40" y="84" width="40" height="44" rx="6" fill="#fff" opacity=".95"/>
+<g fill="#6f95dc"><circle cx="60" cy="97" r="3"/><circle cx="60" cy="91" r="2.4"/><circle cx="60" cy="103" r="2.4"/><circle cx="54" cy="97" r="2.4"/><circle cx="66" cy="97" r="2.4"/></g>
+<circle cx="60" cy="97" r="1.6" fill="#ffe29a"/>
+<text x="60" y="118" font-family="Arial,Helvetica,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4" text-anchor="middle" fill="#4a6fb8">TONER</text>
+<rect x="48" y="122" width="24" height="1.6" rx=".8" fill="#b3c7ef"/>
+</svg>

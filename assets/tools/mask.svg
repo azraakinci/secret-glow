@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="120" height="160">
+<defs><filter id="bl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3"/></filter>
+<linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6d98a"/><stop offset=".45" stop-color="#fff2c8"/><stop offset="1" stop-color="#e2b95e"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<ellipse cx="60" cy="148" rx="36" ry="6" fill="#4a3040" opacity=".28" filter="url(#bl)"/>
+<rect x="24" y="22" width="72" height="122" rx="5" fill="url(#p)"/>
+<rect x="24" y="22" width="72" height="12" rx="5" fill="#d9a94a" opacity=".85"/><rect x="24" y="132" width="72" height="12" rx="5" fill="#d9a94a" opacity=".85"/>
+<g stroke="#b88a2e" stroke-width=".9" opacity=".7"><line x1="30" y1="24" x2="30" y2="33"/><line x1="36" y1="24" x2="36" y2="33"/><line x1="42" y1="24" x2="42" y2="33"/><line x1="48" y1="24" x2="48" y2="33"/><line x1="54" y1="24" x2="54" y2="33"/><line x1="60" y1="24" x2="60" y2="33"/><line x1="66" y1="24" x2="66" y2="33"/><line x1="72" y1="24" x2="72" y2="33"/><line x1="78" y1="24" x2="78" y2="33"/><line x1="84" y1="24" x2="84" y2="33"/><line x1="90" y1="24" x2="90" y2="33"/>
+<line x1="30" y1="133" x2="30" y2="142"/><line x1="36" y1="133" x2="36" y2="142"/><line x1="42" y1="133" x2="42" y2="142"/><line x1="48" y1="133" x2="48" y2="142"/><line x1="54" y1="133" x2="54" y2="142"/><line x1="60" y1="133" x2="60" y2="142"/><line x1="66" y1="133" x2="66" y2="142"/><line x1="72" y1="133" x2="72" y2="142"/><line x1="78" y1="133" x2="78" y2="142"/><line x1="84" y1="133" x2="84" y2="142"/><line x1="90" y1="133" x2="90" y2="142"/></g>
+<ellipse cx="60" cy="74" rx="19" ry="25" fill="#fff" opacity=".95"/>
+<ellipse cx="52" cy="68" rx="5" ry="2.4" fill="#f1d089"/><ellipse cx="68" cy="68" rx="5" ry="2.4" fill="#f1d089"/><ellipse cx="60" cy="87" rx="6" ry="2.6" fill="#f1d089"/>
+<text x="60" y="116" font-family="Arial,Helvetica,sans-serif" font-size="8.5" font-weight="700" letter-spacing="1.6" text-anchor="middle" fill="#9a6d1c">SHEET MASK</text>
+<path d="M24 22 H96 V144 H24 Z" fill="url(#s)" opacity=".6"/>
+</svg>

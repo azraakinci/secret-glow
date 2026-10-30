@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Secret Glow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+      The page is a desktop/mobile wrapper.
+      The actual game lives inside .game-frame, which stays 9:16 (portrait).
+    -->
+    <main class="app">
+      <div class="game-frame" id="game-frame">
+        <header class="top-bar">
+          <p class="game-title">Secret Glow</p>
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Makeover progress"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+            id="progress-bar"
+          >
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+        </header>
+
+        <section class="character-stage" aria-label="Character">
+          <div class="character-display" id="character-display">
+            <!-- fx-layer is resized by game.js to exactly cover the picture -->
+            <div class="fx-layer" id="fx-layer">
+              <img class="character-sprite" src="assets/characters/characters_01/character-before.png" alt="Character before skincare" />
+              <img class="character-sprite after" id="character-after" src="assets/characters/characters_01/character-after.png" alt="Character after skincare" />
+              <!-- Sheet mask picture, cut to the real face shape (assets/effects/face-mask.png) -->
+              <img class="mask-overlay" id="mask-overlay" src="assets/effects/face-mask.png" alt="" aria-hidden="true" />
+              <canvas class="fx-canvas" id="fx-canvas"></canvas>
+            </div>
+            <p class="hint" id="hint" role="status"></p>
+          </div>
+        </section>
+
+        <section class="tools-area" aria-label="Skincare tools">
+          <p class="tools-label">Skincare Tools</p>
+          <div class="tools-row" id="tools-row"></div>
+        </section>
+      </div>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
